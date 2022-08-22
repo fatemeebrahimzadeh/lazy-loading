@@ -4,7 +4,7 @@ interface IProps { }
 
 const Customer: FC<IProps> = ({ }): JSX.Element => {
     return (
-        <header className="App-header">
+        <header className="wrapper">
             <p>
                 Hello costomer
             </p>

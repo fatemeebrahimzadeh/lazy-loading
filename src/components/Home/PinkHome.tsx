@@ -1,11 +1,11 @@
-import React, { FC, Suspense } from "react";
+import { FC } from "react";
 import logo from '../../logo.svg';
 
 interface IProps { }
 
-const Home: FC<IProps> = ({ }): JSX.Element => {
+const PinkHome: FC<IProps> = ({ }): JSX.Element => {
     return (
-        <header className="App-header">
+        <header className="App-header--pink">
             <img src={logo} className="App-logo" alt="logo" />
             <p>
                 Edit <code>src/App.tsx</code> and save to reload.
@@ -22,4 +22,4 @@ const Home: FC<IProps> = ({ }): JSX.Element => {
     )
 };
 
-export default Home
+export default PinkHome

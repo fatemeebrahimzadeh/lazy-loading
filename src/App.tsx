@@ -1,9 +1,9 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Routes from './AppRouter';
-import CustomNavbar from './components/navbar/Navbar';
+import Router from './routes';
+import CustomNavbar from './components/CustomNavbar/CustomNavbar';
 import {
-  BrowserRouter as Router,
+  BrowserRouter
 } from "react-router-dom";
 
 // if you use some tabs and you dont want to showing spinner when you change the tab you can use startTransition func search about it
@@ -12,10 +12,10 @@ import {
 function App() {
   return (
     <div className="App">
-      <CustomNavbar />
-      <Router>
-        <Routes />
-      </Router>
+      <BrowserRouter>
+        <CustomNavbar />
+        <Router />
+      </BrowserRouter>
     </div>
   );
 }
