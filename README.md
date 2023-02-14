@@ -1,3 +1,5 @@
 you can check the result in network tab of inspect
 
 https://lazy-loading.surge.sh/
+
+This repository provides a solution for implementing lazy loading in a React application. Lazy loading is a technique used to improve the performance of a web application by loading components only when they are needed, rather than all at once. This implementation utilizes the React.lazy() function, which allows for the lazy loading of components by dynamically importing them only when they are needed. This implementation also includes features such as code splitting and webpack optimization, ensuring that only the necessary code is loaded when the component is needed. This implementation is designed to be flexible and easily customizable, allowing developers to integrate it into their applications with ease. The use of lazy loading can significantly improve the performance of a React application, particularly for applications with a large number of components. Overall, this repository provides a reliable and efficient solution for implementing lazy loading in React applications.
